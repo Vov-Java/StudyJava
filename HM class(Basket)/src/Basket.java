@@ -5,7 +5,7 @@ public class Basket {
 
     public void appProduct(String product,int countProduct,int weithProduct){
         this.product = product.concat(product);
-        totalWeith = totalWeith + (weithProduct * countProduct);
+        totalWeith = weithProduct * countProduct;
         countGoods = countGoods + countProduct;
     }
     public String getProd(){
