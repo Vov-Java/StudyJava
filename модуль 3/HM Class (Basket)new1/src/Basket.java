@@ -4,20 +4,23 @@ public class Basket {
     public int totalWeithCup;
     public String productNameCup = "";
 
-    public void appProduct(String product,int countGoods,int weightProduct){
-        this.productNameCup = product.concat(product);
-        this.totalWeithCup = countGoods * weightProduct;
+    public void appProduct(String product, int countGoods, int weightProduct) {
+        this.productNameCup = productNameCup.concat(product);
+        this.totalWeithCup = totalWeithCup + (countGoods * weightProduct);
         this.countGoodsCup = countGoodsCup + countGoods;
-          }
-          public String getProdukt (){
+    }
+
+    public String getProdukt() {
         return productNameCup;
-          }
-          public int getCountProdCup (){
+    }
+
+    public int getCountProdCup() {
         return countGoodsCup;
-          }
-          public int getTotalWeithCup(){
-              return totalWeithCup;
-          }
+    }
+
+    public int getTotalWeithCup() {
+        return totalWeithCup;
+    }
 
 //   public void appProduct(String product,int countProduct,int weithProduct){
 //           this.product = product.concat(product);
