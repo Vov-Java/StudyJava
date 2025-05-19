@@ -1,8 +1,8 @@
 public class Elevator {
 
-    public int currentFloor = 1;
-    public int minFloor ;
-    public int maxFloor ;
+   public int currentFloor = 1;
+    private final int minFloor ;
+    private final int maxFloor ;
 
     public Elevator(int minFloor, int maxFloor) {
         this.minFloor = minFloor;
@@ -13,10 +13,10 @@ public class Elevator {
         return currentFloor;
     }
     public void moveDown(){
-        currentFloor = currentFloor > minFloor ? currentFloor -- : currentFloor;
+        currentFloor = currentFloor > minFloor ? currentFloor - 1 : currentFloor;
     }
     public void moveUp(){
-        currentFloor = currentFloor < maxFloor ? currentFloor ++ : currentFloor ;
+        currentFloor = currentFloor < maxFloor ? currentFloor + 1 : currentFloor ;
     }
     public void move(int floor){
         if (floor < minFloor && floor > maxFloor) {

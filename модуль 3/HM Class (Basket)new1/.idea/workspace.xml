@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b37589c3-a1c4-479e-833e-bcddb9da71f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../HM Class (Basket)new/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM Class (Basket)new/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_4/out/production/Encapsulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_4/out/production/Encapsulation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_4/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_4/src/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module_4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_4/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
