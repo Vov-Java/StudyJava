@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b37589c3-a1c4-479e-833e-bcddb9da71f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Module_4/out/production/Encapsulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_4/out/production/Encapsulation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module_4/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_4/src/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Module_4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module_4/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b37589c3-a1c4-479e-833e-bcddb9da71f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Module_4" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
