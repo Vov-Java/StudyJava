@@ -23,22 +23,13 @@ public class Elevator {
         System.out.println("вы на: " + getCurrentFloor() + " этаже.");
     }
     public void move(int floor){
-        if (floor < minFloor || floor > maxFloor) {
-            System.out.println("ошибка");
-            currentFloor = currentFloor;
 
-        } else if (getCurrentFloor() < floor){
-            for (int i = getCurrentFloor(); i <= floor; i++) {
-                System.out.println("поднимаемся - " + i);
-            }currentFloor = floor;
-
-
-        }else if (getCurrentFloor() > floor){
-            for (int i = getCurrentFloor(); i >= floor ; i--) {
-                System.out.println("спускаемся - " + i);
-            }
-        }currentFloor = floor;
-
+        for (int i = currentFloor; i < floor; i++) {
+            moveUp();
+        }
+        for (int i = currentFloor; i > floor; i--) {
+            moveDown();
+        }
     }
 
 }
