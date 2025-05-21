@@ -14,9 +14,12 @@ public class Elevator {
     }
     public void moveDown(){
         currentFloor = currentFloor > minFloor ? currentFloor - 1 : currentFloor;
+        System.out.println("вы на: " + getCurrentFloor() + " этаже.");
     }
+
     public void moveUp(){
         currentFloor = currentFloor < maxFloor ? currentFloor + 1 : currentFloor ;
+        System.out.println("вы на: " + getCurrentFloor() + " этаже.");
     }
     public void move(int floor){
         if (floor < minFloor || floor > maxFloor) {
@@ -24,7 +27,6 @@ public class Elevator {
         }else { currentFloor = floor;
             System.out.println("двери закрываются,едем на : " + floor);
         }
-
 
     }
 
