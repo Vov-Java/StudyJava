@@ -3,9 +3,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Elevator elevator = new Elevator(-3,26);
-               System.out.println(elevator.getCurrentFloor());
         elevator.moveUp();
-                elevator.moveDown();
+        elevator.moveDown();
+        elevator.moveDown();
+        elevator.moveDown();
+        elevator.moveDown();
+        elevator.moveDown();
         elevator.moveDown();
 
         while (true){
