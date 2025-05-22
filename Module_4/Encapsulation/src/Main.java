@@ -10,9 +10,6 @@ public class Main {
             elevator.move(fllor);
 
         }
-        elevator.
-
-
 
     }
 
