@@ -1,6 +1,6 @@
 public class Elevator {
 
-   public int currentFloor = 1;
+   private int  currentFloor = 1;
     private final int minFloor ;
     private final int maxFloor ;
 
