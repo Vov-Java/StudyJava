@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2e043ac8-08b5-4862-8039-0bc6a357b974" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RandomAccessMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomAccessMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../модуль 3/HM Class (Basket)new1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../модуль 3/HM Class (Basket)new1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
