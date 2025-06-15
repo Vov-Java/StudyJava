@@ -13,7 +13,7 @@ public class Computer {
     public String toString;
 
         public Computer(String vendor, String name, TypeStorage typeStorage, ScreanPanelType screanPanelType,
-                        Processor processor, RandomAccessMemory ram, Storage storage,
+                Processor processor, RandomAccessMemory ram, Storage storage,
                         Screen screen, Keyboard keyboard) {
         this.vendor = vendor;
         this.name = name;
@@ -61,11 +61,9 @@ public class Computer {
     public Keyboard getKeyboard() {
         return keyboard;
     }
+
     public void totalWeidht(){
             this.totalWeidht = ram.getWeightRam() + processor.getProcessorWeight() + storage.getStorageWeight() +
                     screen.getScreenWeight() + keyboard.getWeightKeyboard();
     }
-//    public void toString(){
-//        System.out.println("компьютер:" + getName() + " от производителя:" + getVendor() + "");
-//    }
 }
