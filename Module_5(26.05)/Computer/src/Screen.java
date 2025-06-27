@@ -3,7 +3,7 @@ public class Screen {
     private final String screenType;
     private final int screenWeight;
 
-    public Screen(int diagonal, String screenType, int screenWeight) {
+    public Screen(int diagonal, String screenType, int screenWeight,ScreanPanelType screanPanelType) {
         this.diagonal = diagonal;
         this.screenType = screenType;
         this.screenWeight = screenWeight;

@@ -27,9 +27,5 @@ public class Processor {
         return processorWeight;
     }
 
-    public void toString() {
-        System.out.println("параметры процессора: ");
-        System.out.println("частота = " + getFrequency() + ",колличество ядер =" + getCountCore() + ",производитель = " +
-                ",вес процессора = " + getProcessorWeight());
-    }
+
 }
