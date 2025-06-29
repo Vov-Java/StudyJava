@@ -72,4 +72,18 @@ public class Computer {
             this.totalWeidht = ram.getWeightRam() + processor.getProcessorWeight() + storage.getStorageWeight() +
                     screen.getScreenWeight() + keyboard.getWeightKeyboard();
     }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "vendor='" + vendor + '\'' +
+                ", name='" + name + '\'' +
+                ", processor=" + processor +
+                ", ram=" + ram +
+                ", storage=" + storage +
+                ", screen=" + screen +
+                ", keyboard=" + keyboard +
+                ", totalWeidht=" + totalWeidht +
+                '}';
+    }
 }

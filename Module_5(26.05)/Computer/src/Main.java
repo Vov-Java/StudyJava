@@ -7,5 +7,6 @@ public class Main {
                 new Screen(32,"fj",3,ScreanPanelType.VA),
                 new Keyboard("ttttt",true,500));
 
+        System.out.println(ps.toString());
     }
 }

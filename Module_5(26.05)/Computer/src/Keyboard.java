@@ -20,4 +20,13 @@ public class Keyboard {
     public int getWeightKeyboard() {
         return weightKeyboard;
     }
+
+    @Override
+    public String toString() {
+        return "Keyboard{" +
+                "typeKeyboard='" + typeKeyboard + '\'' +
+                ", backlight=" + backlight +
+                ", weightKeyboard=" + weightKeyboard +
+                '}';
+    }
 }

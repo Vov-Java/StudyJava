@@ -20,4 +20,13 @@ public class Screen {
     public int getScreenWeight() {
         return screenWeight;
     }
+
+    @Override
+    public String toString() {
+        return "Screen{" +
+                "diagonal=" + diagonal +
+                ", screenType='" + screenType + '\'' +
+                ", screenWeight=" + screenWeight +
+                '}';
+    }
 }

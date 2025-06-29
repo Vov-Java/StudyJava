@@ -17,4 +17,13 @@ public class RandomAccessMemory {
     public int getWeightRam(){
         return weightRam;
     }
+
+    @Override
+    public String toString() {
+        return "RandomAccessMemory{" +
+                "ramType='" + ramType + '\'' +
+                ", volumeRam=" + volumeRam +
+                ", weightRam=" + weightRam +
+                '}';
+    }
 }

@@ -27,5 +27,13 @@ public class Processor {
         return processorWeight;
     }
 
-
+    @Override
+    public String toString() {
+        return "Processor{" +
+                "frequency=" + frequency +
+                ", countCore=" + countCore +
+                ", manufacturer='" + manufacturer + '\'' +
+                ", processorWeight=" + processorWeight +
+                '}';
+    }
 }

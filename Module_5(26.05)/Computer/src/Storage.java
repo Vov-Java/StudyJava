@@ -16,4 +16,13 @@ public class Storage {
     public int getStorageWeight(){
         return storageWeight;
     }
+
+    @Override
+    public String toString() {
+        return "Storage{" +
+                "storageType='" + storageType + '\'' +
+                ", volumeStorage=" + volumeStorage +
+                ", storageWeight=" + storageWeight +
+                '}';
+    }
 }
