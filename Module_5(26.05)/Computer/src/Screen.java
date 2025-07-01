@@ -1,9 +1,9 @@
 public class Screen {
     private final int diagonal;
-    private final String screenType;
+    private final ScreanPanelType screenType;
     private final int screenWeight;
 
-    public Screen(int diagonal, String screenType, int screenWeight,ScreanPanelType screanPanelType) {
+    public Screen(int diagonal, ScreanPanelType screenType, int screenWeight) {
         this.diagonal = diagonal;
         this.screenType = screenType;
         this.screenWeight = screenWeight;
@@ -13,7 +13,7 @@ public class Screen {
         return diagonal;
     }
 
-    public String getScreenType() {
+    public ScreanPanelType getScreenType() {
         return screenType;
     }
 

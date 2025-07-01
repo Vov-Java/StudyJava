@@ -7,7 +7,6 @@ public class Computer {
     private Storage storage;
     private Screen screen;
     private Keyboard keyboard;
-    public int totalWeidht;
 
         public Computer(String vendor, String name,Processor processor, RandomAccessMemory ram, Storage storage,
                         Screen screen, Keyboard keyboard) {
@@ -68,9 +67,13 @@ public class Computer {
         this.keyboard = keyboard;
     }
 
-    public void totalWeidht(){
-            this.totalWeidht = ram.getWeightRam() + processor.getProcessorWeight() + storage.getStorageWeight() +
+
+
+    public int totalWeidht(){
+            int totalWeidht = ram.getWeightRam() + processor.getProcessorWeight() + storage.getStorageWeight() +
                     screen.getScreenWeight() + keyboard.getWeightKeyboard();
+           return totalWeidht;
+
     }
 
     @Override
@@ -83,7 +86,7 @@ public class Computer {
                 ", storage=" + storage +
                 ", screen=" + screen +
                 ", keyboard=" + keyboard +
-                ", totalWeidht=" + totalWeidht +
+                ", totalWeidht=" + totalWeidht() +
                 '}';
     }
 }
