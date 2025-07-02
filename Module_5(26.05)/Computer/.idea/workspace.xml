@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e043ac8-08b5-4862-8039-0bc6a357b974" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Calculator_Enum/src/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Enum/src/ArithmeticCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator_Enum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator_Enum/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Computer/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Computer/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Storage.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e043ac8-08b5-4862-8039-0bc6a357b974" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
