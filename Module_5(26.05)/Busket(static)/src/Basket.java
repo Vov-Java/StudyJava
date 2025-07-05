@@ -1,6 +1,6 @@
 public class Basket {
 
-    private int countGoodsCup;
+  private int countGoodsCup;
     private int totalWeithCup;
     private int priceProduct;
     private String productNameCup = "";
@@ -17,9 +17,24 @@ public class Basket {
         this.totalWeithCup = totalWeithCup + (countGoods * weightProduct);
         this.countGoodsCup = countGoodsCup + countGoods;
 
-       this.allCountProductAllCup = allCountProductAllCup + countGoods ;
-       this.allPriceProductAllCup = allPriceProductAllCup + (countGoods * priceProduct);
+//       this.allCountProductAllCup = allCountProductAllCup + countGoods ;
+//       this.allPriceProductAllCup = allPriceProductAllCup + (countGoods * priceProduct);
     }
+    public static void allGoodsMethod(int countGoods){
+         allCountProductAllCup =+ countGoods;
+    }
+    public static void allPriceMathod(int countGoods,int priceProduct){
+        allPriceProductAllCup =+ countGoods * priceProduct;
+    }
+    public static int getTotalCount() {
+        return allCountProductAllCup;
+    }
+
+    public static int getTotalPrice() {
+        return allPriceProductAllCup;
+    }
+
+
     public static double getAveragePriceProduct(){
        return allPriceProductAllCup / allCountProductAllCup;
     }
